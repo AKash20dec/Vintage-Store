@@ -1,0 +1,78 @@
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #f39c12;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #f39c12;
+  }
+  
+  .footer-bottom {
+    background-color: #111;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Font Awesome Icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+  

@@ -1,0 +1,25 @@
+.about-heading {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.mission-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+.whole{
+    background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+.imgHead{
+
+    background-image: url('https://img.freepik.com/premium-photo/modern-home-decoration-mock-up-furniture-interior-design-minimal-living-room-black-wall-texture-background-3d-rendering_221619-942.jpg');
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; 
+    height: 600px;
+    width: auto;
+}
+.backdown{
+
+    background-color: #dfa375;
+    background-image: linear-gradient(315deg, #dfa375 0%, #c58e7f 74%);
+}
