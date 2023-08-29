@@ -14,7 +14,7 @@ const BuyPage = () => {
     );
 
     const addOrder = async () => {
-        const res = await fetch('http://localhost:5000/order/add', {
+        const res = await fetch('https://react-vintage-store-1.onrender.com/order/add', {
             method: 'POST',
             body: JSON.stringify({
                 user: currentUser._id,

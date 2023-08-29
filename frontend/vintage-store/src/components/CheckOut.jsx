@@ -11,7 +11,7 @@ const CheckOut = () => {
     const [userData, setUserData] = useState({});
 
     const fetchUserData = async () => {
-        const res = await fetch("http://localhost:5000/product/getbyid/" + id);
+        const res = await fetch("https://react-vintage-store-1.onrender.com/product/getbyid/" + id);
         console.log(res.status);
 
         const data = await res.json();
@@ -35,7 +35,7 @@ const CheckOut = () => {
             <div className='col-md-3 mb-4 w-50 m-5'>
                 <div className="card">
                     <div className='card-body'>
-                        <img src={'http://localhost:5000/' + userData.image} alt="" className="card-img-top img-fluid" />
+                        <img src={'https://react-vintage-store-1.onrender.com/' + userData.image} alt="" className="card-img-top img-fluid" />
                     </div>
 
                     <div className="card-footer">

@@ -9,7 +9,7 @@ const Buy = () => {
     const [masterList, setMasterList] = useState([]);
 
     const fetchUserData = async () => {
-      const res = await fetch('http://localhost:5000/product/getall');
+      const res = await fetch('https://react-vintage-store-1.onrender.com/product/getall');
       console.log(res.status);
       if(res.status === 200){
           const data = await res.json();
@@ -37,7 +37,7 @@ const Buy = () => {
         
           <div className='col-md-4 mb-4'>
               <div className="card" style={{width:"18rem"}}>
-                  <img src={'http://localhost:5000/'+furniture.image} alt="" className='card-img-top img-fluid' style={{height: "200px",objectFit:"cover"}} />
+                  <img src={'https://react-vintage-store-1.onrender.com/'+furniture.image} alt="" className='card-img-top img-fluid' style={{height: "200px",objectFit:"cover"}} />
                   <div className='card-body' >
                       <h4>{furniture.title}</h4>
                       <p>{furniture.category}</p>

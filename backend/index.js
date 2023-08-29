@@ -18,9 +18,7 @@ const UtilRouter = require('./routers/util');
 
 
 //middleware to convert json data to js object
-app.use(cors({
-    origin: ['http://localhost:3000'], //allow all origins
-}));
+app.use(cors());
 app.use(express.json());
 
 //middlewares

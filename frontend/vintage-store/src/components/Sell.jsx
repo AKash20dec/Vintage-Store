@@ -19,7 +19,7 @@ const Sell = () => {
           console.log(values);
           values.image = selImage;
           // sending request to backend
-          const res = await fetch('http://localhost:5000/product/add', {
+          const res = await fetch('https://react-vintage-store-1.onrender.com/product/add', {
             method : 'POST',
             body : JSON.stringify(values),
             headers : {
@@ -51,7 +51,7 @@ const Sell = () => {
         const fd = new FormData();
         fd.append('myfile', file);
     
-        const res = await fetch('http://localhost:5000/util/uploadfile', {
+        const res = await fetch('https://react-vintage-store-1.onrender.com/util/uploadfile', {
           method: 'POST',
           body: fd
         });
